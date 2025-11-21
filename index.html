@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Living in New York City | Walks, Stories & Local Tips</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR COLLASSABILE -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <span class="sidebar-logo">NYC</span>
+            <div class="toggle-btn" id="toggle-sidebar" title="Collapse/Expand">
+                <i class='bx bx-chevron-left'></i>
+            </div>
+            <i class='bx bx-x' id="close-sidebar"></i>
+        </div>
+        
+        <ul class="sidebar-menu">
+            <li><a href="#home" title="Home"><i class='bx bxs-home'></i><span>Home</span></a></li>
+            <li><a href="#about" title="About"><i class='bx bxs-user'></i><span>About</span></a></li>
+            <li><a href="#services" title="Services"><i class='bx bxs-briefcase'></i><span>Services</span></a></li>
+            <li><a href="#portfolio" title="Portfolio"><i class='bx bxs-image'></i><span>Portfolio</span></a></li>
+            <li><a href="#collaboration" title="Collaboration"><i class='bx bxs-group'></i><span>Collab</span></a></li>
+            <li><a href="#contact" title="Contact"><i class='bx bxs-message'></i><span>Contact</span></a></li>
+            <li><a href="projects.html" title="Projects"><i class='bx bxs-folder'></i><span>Projects</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- SIDEBAR OVERLAY (mobile) -->
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <!-- MAIN WRAPPER -->
+    <div class="main-wrapper" id="main-wrapper">
+
+        <!-- HEADER -->
+        <header class="header" id="header">
+            <a href="#home" class="logo">
+                <span class="logo-icon">🗽</span>
+                <span class="logo-text">Living NYC</span>
+            </a>
+
+            <div class="header-right">
+                <div class="icon-btn" id="darkMode-icon" title="Toggle Dark Mode">
+                    <i class='bx bx-moon'></i>
+                </div>
+                <div class="hamburger" id="menu-icon" title="Open Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- home section design - HERO NYC -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <div class="hero-badge">🎬 LIVING IN NYC</div>
+                <h1 class="hero-title">
+                    <span class="text-gradient">Experience</span> the Real
+                    <span class="text-glow">New York City</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Raw walks. Real life. Authentic stories from the streets of Manhattan, Brooklyn, and beyond.
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">NYC Walks</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">500K+</span>
+                        <span class="stat-label">Community</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">NYC Vibes</span>
+                    </div>
+                </div>
+
+                <div class="hero-cta">
+                    <a href="https://www.youtube.com/@living_in_newyorkcity" target="_blank" class="btn btn-primary">
+                        <i class='bx bxl-youtube'></i> Watch Now
+                    </a>
+                    <a href="#about" class="btn btn-secondary">
+                        Discover More <i class='bx bx-chevron-down'></i>
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.youtube.com/@living_in_newyorkcity" target="_blank" title="YouTube"><i class='bx bxl-youtube'></i></a>
+                    <a href="https://www.instagram.com/livingin_newyork_city" target="_blank" title="Instagram"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.tiktok.com/@peterforestieri8" target="_blank" title="TikTok"><i class='bx bxl-tiktok'></i></a>
+                    <a href="https://www.facebook.com/share/17VZxLHmzd/" target="_blank" title="Facebook"><i class='bx bxl-facebook'></i></a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-accent accent-1"></div>
+                <div class="hero-accent accent-2"></div>
+                <div class="hero-accent accent-3"></div>
+                <div class="hero-image">
+                    <img src="images/home.png" alt="Living in New York City">
+                </div>
+            </div>
+        </section>
+
+        <!-- about section -->
+        <section class="about" id="about">
+            <div class="about-content">
+                <div class="section-label">👨‍💻 Chi Sono</div>
+                <h2 class="section-title">Pietro from <span>Italy</span> to <span>NYC</span></h2>
+                
+                <p class="about-text">
+                    Sono un ingegnere civile italiano che ha trasformato il sogno newyorchese in realtà. 
+                    Dalla passione per la città alla creazione di contenuti autentici, fino ai progetti 
+                    blockchain come PropertyDEX e BlockYork FoodHall.
+                </p>
+
+                <div class="about-highlights">
+                    <div class="highlight">
+                        <i class='bx bx-building'></i>
+                        <h4>Civil Engineer</h4>
+                        <p>Background professionale solido</p>
+                    </div>
+                    <div class="highlight">
+                        <i class='bx bx-video'></i>
+                        <h4>Content Creator</h4>
+                        <p>Raw authentic storytelling</p>
+                    </div>
+                    <div class="highlight">
+                        <i class='bx bx-cube'></i>
+                        <h4>Web3 Builder</h4>
+                        <p>Blockchain & tokenization</p>
+                    </div>
+                </div>
+
+                <a href="#portfolio" class="btn btn-primary">Esplora le mie opere <i class='bx bx-arrow-right'></i></a>
+            </div>
+
+            <div class="about-image">
+                <img src="images/home.png" alt="Pietro in NYC">
+            </div>
+        </section>
+
+        <!-- services section -->
+        <section class="services" id="services">
+            <div class="section-label">🎯 Cosa Offro</div>
+            <h2 class="section-title">My <span>Services</span></h2>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class='bx bx-street-view'></i>
+                    </div>
+                    <h3>NYC Walking Tours</h3>
+                    <p>Immersive street walks attraverso i quartieri più affascinanti della città. Real vibes, real streets.</p>
+                    <a href="#portfolio" class="service-link">Scopri <i class='bx bx-arrow-right'></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class='bx bx-map'></i>
+                    </div>
+                    <h3>Neighborhood Guides</h3>
+                    <p>Guida autentiche dei quartieri: cosa vedere, come sentirsi, consigli pratici e segreti locali.</p>
+                    <a href="#portfolio" class="service-link">Scopri <i class='bx bx-arrow-right'></i></a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class='bx bx-camera'></i>
+                    </div>
+                    <h3>Video Production</h3>
+                    <p>Collaborazioni video professionali con brand e business che vogliono la loro NYC story raccontata.</p>
+                    <a href="#contact" class="service-link">Collabora <i class='bx bx-arrow-right'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolio section -->
+        <section class="portfolio" id="portfolio">
+            <div class="section-label">🎬 Latest Walks</div>
+            <h2 class="section-title">Explore My <span>NYC Adventures</span></h2>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <img src="images/portfolio1.jpg" alt="Veterans Day Parade">
+                    <div class="portfolio-content">
+                        <h4>Veterans Day Parade</h4>
+                        <p>Walk along Manhattan's most patriotic celebration</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <img src="images/portfolio2.jpg" alt="Eataly Downtown">
+                    <div class="portfolio-content">
+                        <h4>Inside Eataly Downtown</h4>
+                        <p>Italian food heaven in the heart of NYC</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <img src="images/portfolio3.jpg" alt="East Side Walk">
+                    <div class="portfolio-content">
+                        <h4>East Side Walk</h4>
+                        <p>96th to 106th Street along 2nd Ave</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <img src="images/portfolio4.jpg" alt="Central Park">
+                    <div class="portfolio-content">
+                        <h4>Central Park & Columbus Circle</h4>
+                        <p>Serenity meets urban energy</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <img src="images/portfolio5.jpg" alt="Times Square">
+                    <div class="portfolio-content">
+                        <h4>Times Square by Night</h4>
+                        <p>The chaos and energy of NYC after dark</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <img src="images/portfolio6.jpg" alt="Moving to NYC">
+                    <div class="portfolio-content">
+                        <h4>Moving to NYC Guide</h4>
+                        <p>Expectations vs reality for dreamers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- collaboration section -->
+        <section class="collaboration" id="collaboration">
+            <div class="section-label">🤝 Featured Partner</div>
+            <h2 class="section-title">Boston Art <span>Passion</span></h2>
+
+            <div class="collab-content">
+                <div class="collab-text">
+                    <p>
+                        Collaborate con <strong>Boston Art Passion</strong>, studio professionale di foto e video con sede a NYC. 
+                        Insieme portiamo contenuti di qualità cinematografica a matrimoni, eventi privati, ristoranti e momenti speciali.
+                    </p>
+                    <a href="https://www.bostonartpassion.com/" target="_blank" class="btn btn-primary">
+                        Visita il sito <i class='bx bx-link-external'></i>
+                    </a>
+                </div>
+                <div class="collab-icon">
+                    <i class='bx bx-camera'></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- testimonials section -->
+        <section class="testimonials" id="testimonials">
+            <div class="section-label">⭐ What People Say</div>
+            <h2 class="section-title">Community <span>Love</span></h2>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Watching your walks makes me feel like I'm already in New York. I put your videos on while I study."</p>
+                    <h4>Marco – Italy</h4>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Your walks helped me understand the neighborhoods and feel less lost when I arrived for the first time."</p>
+                    <h4>Sara – First time in NYC</h4>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Collaborating with you brought new people to our place. Your content shows the real side of the city."</p>
+                    <h4>Local Business Owner</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact section -->
+        <section class="contact" id="contact">
+            <div class="section-label">💬 Get In Touch</div>
+            <h2 class="section-title">Let's Connect & <span>Collaborate</span></h2>
+
+            <form action="https://formspree.io/f/xkgrrwqe" method="POST" class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" name="subject" placeholder="Subject">
+                    <input type="text" name="social" placeholder="Instagram / YouTube">
+                </div>
+
+                <textarea name="message" placeholder="Your Message..." rows="6" required></textarea>
+
+                <button type="submit" class="btn btn-primary btn-large">
+                    Send Message <i class='bx bx-send'></i>
+                </button>
+            </form>
+        </section>
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2025 Living in New York City. All Rights Reserved.</p>
+            </div>
+            <a href="#home" class="footer-top" title="Back to top">
+                <i class='bx bx-chevron-up'></i>
+            </a>
+        </footer>
+
+    </div>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+/* ... existing code ... */
+
+body {
+    background: linear-gradient(135deg, #232526 0%, #414345 100%);
+    color: #fff;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+.header, .navbar {
+    background: #111;
+    color: #FFD700;
+    border-bottom: 4px solid #FFD700;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #232526;
+    background: #FFD700;
+    transition: 0.2s;
+}
+
+.button, .btn {
+    background: #FFD700;
+    color: #232526;
+    border: none;
+    padding: 12px 28px;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.section-title, h2, h3 {
+    color: #FFD700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+/* ... existing code ... */

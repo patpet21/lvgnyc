@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects in New York City | Living in NYC</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR COLLASSABILE -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <span class="sidebar-logo">Menu</span>
+            <div class="toggle-btn" id="toggle-sidebar" title="Collapse/Expand">
+                <i class='bx bx-chevron-left'></i>
+            </div>
+            <i class='bx bx-x' id="close-sidebar"></i>
+        </div>
+        
+        <ul class="sidebar-menu">
+            <li><a href="index.html#home" title="Home"><i class='bx bxs-home'></i><span>Home</span></a></li>
+            <li><a href="index.html#about" title="About"><i class='bx bxs-user'></i><span>About</span></a></li>
+            <li><a href="index.html#services" title="Services"><i class='bx bxs-briefcase'></i><span>Services</span></a></li>
+            <li><a href="index.html#portfolio" title="Portfolio"><i class='bx bxs-image'></i><span>Portfolio</span></a></li>
+            <li><a href="index.html#collaboration" title="Collaboration"><i class='bx bxs-group'></i><span>Collaboration</span></a></li>
+            <li><a href="index.html#contact" title="Contact"><i class='bx bxs-message'></i><span>Contact</span></a></li>
+            <li><a href="projects.html" title="Projects"><i class='bx bxs-folder'></i><span>Projects</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- SIDEBAR OVERLAY (mobile) -->
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <!-- MAIN WRAPPER -->
+    <div class="main-wrapper" id="main-wrapper">
+
+        <!-- HEADER -->
+        <header class="header" id="header">
+            <a href="index.html#home" class="logo">Living in NYC.</a>
+
+            <div class="header-right">
+                <div class="icon-btn" id="darkMode-icon" title="Toggle Dark Mode">
+                    <i class='bx bx-moon'></i>
+                </div>
+                <div class="hamburger" id="menu-icon" title="Open Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- hero / intro section -->
+        <section class="home projects-hero" id="projects">
+            <div class="home-content">
+                <h1>My Projects in New York City</h1>
+                <p>
+                    I'm Pietro, an Italian civil engineer and content creator living in New York City.  
+                    Besides filming raw street walks and daily life, I'm also building real projects here:
+                    a community-driven coffee shop, a Web3 real estate platform, and creative collaborations
+                    with local businesses.
+                </p>
+                <p>
+                    This page is the place where everything comes together — the story behind
+                    <strong>BlockYork FoodHall</strong>, <strong>PropertyDEX</strong> and my
+                    <strong>photo &amp; video collaborations</strong> across the city.
+                </p>
+
+                <a href="#blockyork" class="btn">Discover BlockYork FoodHall</a>
+            </div>
+
+            <div class="home-img">
+                <img src="images/home.png" alt="Pietro - Living in New York City">
+            </div>
+        </section>
+
+        <!-- BlockYork FoodHall section -->
+        <section class="services projects-blockyork" id="blockyork">
+            <h2 class="heading">BlockYork <span>FoodHall</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-coffee'></i>
+                    <h3>Community-Driven Coffee Shop</h3>
+                    <p>
+                        <strong>BlockYork FoodHall</strong> is one of the most exciting projects I'm working on:
+                        a coffee shop concept in New York City that is born together with a community, not just
+                        a traditional business from the top down.
+                    </p>
+                    <p>
+                        The idea is simple: create a real place in NYC for people who love the city, enjoy food,
+                        and are curious about innovation. A physical spot where the community can meet, connect
+                        and feel part of something bigger.
+                    </p>
+                    <p>
+                        Behind the scenes, BlockYork FoodHall is supported by blockchain and tokenization,
+                        but the heart of the project is human: people, stories, and shared experiences.
+                    </p>
+                    <a href="https://blockyorkfoodhall.propertydex.xyz/" target="_blank" class="btn">
+                        Visit BlockYork FoodHall
+                    </a>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bx-group'></i>
+                    <h3>Built with the Community</h3>
+                    <p>
+                        My goal is not just to open "another coffee shop", but to create one of the first
+                        <strong>community-driven coffee concepts</strong> in New York City.
+                    </p>
+                    <p>
+                        People who follow my walks, love NYC, or are interested in Web3 and real estate can
+                        be part of this journey — from the early story to future steps of the project.
+                    </p>
+                    <p>
+                        It's a cultural project, a tech project and a social project at the same time.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PropertyDEX section -->
+        <section class="about projects-propertydex" id="propertydex">
+            <div class="about-img">
+                <img src="images/home.png" alt="PropertyDEX & Pietro in NYC">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading">Property<span>DEX</span></h2>
+                <h3>Web3 Real Estate, Built from New York City</h3>
+
+                <p>
+                    <strong><a href="https://propertydex.xyz" target="_blank">PropertyDEX</a></strong> is my long-term
+                    mission in the real estate and Web3 space. As a civil engineer, I've always been fascinated by how
+                    buildings, cities and investments work — and how they could be more transparent and accessible.
+                </p>
+
+                <p>
+                    Since 2017 I've been studying blockchain and tokenization. PropertyDEX is where that journey takes
+                    shape: a platform designed to connect people, projects and regulated partners in the world of
+                    real estate tokenization.
+                </p>
+
+                <p>
+                    The focus is not on hype or speculation, but on building a <strong>solid, legal and compliant
+                    ecosystem</strong> together with certified companies that operate within real regulations.
+                </p>
+
+                <p>
+                    In the future, BlockYork FoodHall and other community projects will also connect to the
+                    PropertyDEX ecosystem, creating a bridge between real places in New York City and on-chain
+                    ownership models.
+                </p>
+
+                <a href="https://propertydex.xyz" target="_blank" class="btn">Explore PropertyDEX</a>
+            </div>
+        </section>
+
+        <!-- Photo & Video collaborations section -->
+        <section class="services projects-media" id="media">
+            <h2 class="heading">Photo &amp; <span>Video</span> Collaborations</h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-camera'></i>
+                    <h3>NYC Visual Stories</h3>
+                    <p>
+                        Beyond my walking videos, I collaborate with a close friend who is a professional
+                        photo and video producer. Together, we help people and businesses capture their
+                        New York City moments in a real and emotional way.
+                    </p>
+                    <p>
+                        We work with restaurants, cafés, small businesses, weddings, private events and
+                        brands that want content that feels human, not just "perfect".
+                    </p>
+                    <p>
+                        If you're planning a wedding in NYC, launching a new place, or simply want your
+                        story documented in this city, we can help.
+                    </p>
+                    <a href="index.html#contact" class="btn">Contact for Collaborations</a>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bx-movie-play'></i>
+                    <h3>From Street Walks to Professional Shoots</h3>
+                    <p>
+                        What starts with simple, raw street walks can turn into full productions. The same
+                        city you see in my videos is the background of the stories we create for clients:
+                        authentic, dynamic and alive.
+                    </p>
+                    <p>
+                        We can shoot promos, social media content, short documentaries, or just keep it
+                        simple with natural footage of your place and your people.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community & vision section -->
+        <section class="portfolio projects-community" id="community">
+            <h2 class="heading">Community <span>&amp; Vision</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="images/portfolio4.jpg" alt="Walking in NYC">
+
+                    <div class="portfolio-layer">
+                        <h4>Not Just Another NYC Channel</h4>
+                        <p>
+                            Many people use New York only as a background for trends and viral content.
+                            My goal is different: build a community around real walks, real life and
+                            meaningful projects born from this city.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="images/portfolio2.jpg" alt="Food and places">
+
+                    <div class="portfolio-layer">
+                        <h4>From Streets to Coffee Shops</h4>
+                        <p>
+                            BlockYork FoodHall is the natural extension of my walks: from just showing
+                            the city, to creating a real place in it, together with the people who love NYC.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="images/portfolio6.jpg" alt="Future in NYC">
+
+                    <div class="portfolio-layer">
+                        <h4>Step by Step, Walk by Walk</h4>
+                        <p>
+                            Living in NYC, PropertyDEX and BlockYork FoodHall are all connected by the same
+                            idea: start small, stay honest, and let the community grow with you over time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to action / contact -->
+        <section class="contact projects-cta" id="cta-contact">
+            <h2 class="heading">Be Part of <span>This Journey</span></h2>
+
+            <p style="text-align:center; max-width: 800px; margin: 0 auto 2rem; font-size: 1.2rem;">
+                If you love New York City, are curious about community projects like
+                <strong>BlockYork FoodHall</strong>, interested in <strong>PropertyDEX</strong>,
+                or you simply want to collaborate on a photo/video project in NYC,
+                I'd be happy to hear from you.
+            </p>
+
+            <div style="text-align:center;">
+                <a href="index.html#contact" class="btn">Get in Touch</a>
+            </div>
+        </section>
+
+        <!-- footer design -->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2025 Living in New York City | All Rights Reserved.</p>
+            </div>
+
+            <div class="footer-iconTop">
+                <a href="#projects"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
